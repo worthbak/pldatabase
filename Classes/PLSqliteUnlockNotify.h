@@ -28,7 +28,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <sqlite3.h>
+#import <sqlite3/sqlite3.h>
 
 #ifdef PL_DB_PRIVATE
 int pl_sqlite3_blocking_prepare_v2 (sqlite3 *db, const char *zSql, int nSql, sqlite3_stmt **ppStmt, const char **pz);
